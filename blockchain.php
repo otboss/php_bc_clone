@@ -10,7 +10,7 @@ function genesisBlock(){
     $genesisBlock->index = 0;
     $genesisBlock->date = date("Y-m-d");
     $genesisBlock->time = date("H:i:s")." ".timezone;
-    $genesisBlock->data = "blockchain";
+    $genesisBlock->data = "[]";
     $genesisBlock->previousHash = null;
     $genesisBlock->hash = md5(json_encode($genesisBlock));
     return $genesisBlock;

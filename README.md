@@ -1,3 +1,3 @@
 # PHP BLOCKCHAIN
 
-Simple blockchain client written in php.
+conceptual draft of blockchain
